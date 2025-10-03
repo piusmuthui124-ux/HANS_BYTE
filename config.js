@@ -19,11 +19,11 @@ if (dotenvPath) {
 // Application Configuration Object
 module.exports = {
   // Session and Owner Information
-  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~8mlGjQ6b#idZ0maJjhXkYqbpZxZPSVS0fQSMXvT97pOmlGixhMko", // Add your session ID here
-  SUDO: process.env.SUDO || "237696900612", // Add your admin/sudo number here
-  OWNER_NUM: process.env.OWNER_NUM || "237696900612", // Add the owner's number here
+  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~NjM3nC6Z#fjLrrF4olnNYn-DHwkkzfo0aTWx4cJSvMz9q3n9K_WU", // Add your session ID here
+  SUDO: process.env.SUDO || "254768421673", // Add your admin/sudo number here
+  OWNER_NUM: process.env.OWNER_NUM || "254768421673", // Add the owner's number here
   OWNER_NAME: process.env.OWNER_NAME || "HANS TECH", // Add the owner's name here
-  OWNER_EMAIL: process.env.OWNER_EMAIL || "your@email.com", // Add your email address here
+  OWNER_EMAIL: process.env.OWNER_EMAIL || "piusmuthui124@gmail.com", // Add your email address here
   OWNER_LOCATION: process.env.OWNER_LOCATION || "Africa/Douala", // Add your location here
   OWNER_GITHUB: process.env.OWNER_GITHUB || "https://github.com/HansTech1", // Add your GitHub profile URL here
 
@@ -40,9 +40,9 @@ module.exports = {
   STATUS_MESSAGE: process.env.STATUS_MESSAGE || "🚀 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙃𝘼𝙉𝙎-𝙗𝙮𝙩𝙚", // Customize the bot's status message
 
   // Auto Features (toggle features on/off)
-  AUTO_REACT: process.env.AUTO_REACT || "true", // Enable/disable auto reaction (true/false)
+  AUTO_REACT: process.env.AUTO_REACT || "false", // Enable/disable auto reaction (true/false)
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
-  AUTO_VOICE: process.env.AUTO_VOICE || "true", // Enable/disable auto voice messages (true/false)
+  AUTO_VOICE: process.env.AUTO_VOICE || "false", // Enable/disable auto voice messages (true/false)
   AUTO_STICKER: process.env.AUTO_STICKER || "true", // Enable/disable auto sticker rea (true/false)
   AUTO_REPLY: process.env.AUTO_REPLY || "true", // Enable/disable auto reply feature (true/false)
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", // Enable/disable auto read status (true/false)
@@ -61,7 +61,7 @@ module.exports = {
   WELCOME: process.env.WELCOME || "true",
 
   // Alive Message & Image
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/6Rxhg321/Chat-GPT-Image-Mar-30-2025-03-39-42-AM.png", // Add your alive image URL here
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://www.instagram.com/prograzner/p/DPKVxKICs-s/", // Add your alive image URL here
   ALIVE_MSG: process.env.ALIVE_MSG || "Hello , I am alive now!!", // Customize the alive message here
 
   // Sticker Settings
