@@ -19,7 +19,7 @@ if (dotenvPath) {
 // Application Configuration Object
 module.exports = {
   // Session and Owner Information
-  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~8mlGjQ6b#idZ0maJjhXkYqbpZxZPSVS0fQSMXvT97pOmlGixhMko", // Add your session ID here
+  SESSION_ID: process.env.SESSION_ID || "HANS-BYTE~NjM3nC6Z#fjLrrF4olnNYn-DHwkkzfo0aTWx4cJSvMz9q3n9K_WU", // Add your session ID here
   SUDO: process.env.SUDO || "237696900612", // Add your admin/sudo number here
   OWNER_NUM: process.env.OWNER_NUM || "237696900612", // Add the owner's number here
   OWNER_NAME: process.env.OWNER_NAME || "HANS TECH", // Add the owner's name here
@@ -61,7 +61,7 @@ module.exports = {
   WELCOME: process.env.WELCOME || "true",
 
   // Alive Message & Image
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/6Rxhg321/Chat-GPT-Image-Mar-30-2025-03-39-42-AM.png", // Add your alive image URL here
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://www.instagram.com/prograzner/p/DPKVxKICs-s/", // Add your alive image URL here
   ALIVE_MSG: process.env.ALIVE_MSG || "Hello , I am alive now!!", // Customize the alive message here
 
   // Sticker Settings
